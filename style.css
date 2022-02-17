@@ -1,0 +1,233 @@
+.root {
+  /* border: 2px solid gray; */
+  width: 1368px;
+  margin: auto;
+  background-color: rgb(241, 230, 219);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Short Stack", cursive;
+  font-family: "Source Serif 4", sans-serif;
+  font-family: "Supermercado One", cursive;
+  font-family: "Syne Tactile", cursive;
+  font-family: "Ubuntu", sans-serif;
+}
+.navber {
+  background-color: rgb(248, 240, 240);
+  position: relative;
+  height: 80px;
+}
+.navber h2 {
+  color: rgb(3, 3, 3);
+  left: 360px;
+  position: absolute;
+  top: 25px;
+}
+.navber ul{
+display: inline-block;
+position: absolute;
+left: 726px;
+top: 28px;
+}
+.navber ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.navber ul li a{
+    text-decoration: none;
+    padding: 21px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/* banner_part */
+.banner{
+    /* border: 1px solid ; */
+    height: 556px;
+    background-image: url("./img/backimage.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: rgb(54, 53, 53);
+    position: relative;
+}
+.banner h1{
+    position: absolute;
+    top: 25%;
+    left: 430px;
+    font-size: 60px;     
+}
+.banner h2 a{
+    position: absolute;
+    top: 55%;
+    left: 647px;
+    background-color: white;
+    padding: 15px 15px;
+    text-decoration: none;
+    color: rgb(26, 118, 238);
+    border-radius: 5px;
+}
+.banner h2 a:hover{
+  color: rgb(133, 68, 22);
+}
+.banner p{
+    position: absolute;
+    top: 45%;
+    left: 580px;
+    font-weight: bold; 
+}
+.heading h1{
+  text-align: center;
+  margin-top: 85px;
+  color: rgb(148, 10, 130);
+}
+.item{
+  margin-top: 45px;
+  height: 390px;
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 120px;
+  padding-right: 139px;
+}
+.box{
+  width: 250px;
+  height: 270px;
+  margin-top: 10px;
+  color: blueviolet;
+}
+.item .box img{
+  width: 100%;
+  height: 100%;
+}
+.box1 h3{
+  padding-top: 26px;
+  padding-left: 45px;
+}
+.box2 h3{
+  padding-top: 26px;
+  padding-left: 45px;
+}
+.box3 h3{
+  padding-top: 26px;
+  padding-left: 45px;
+}
+.box4 h3{
+  padding-top: 26px;
+  padding-left: 45px;
+}
+.box1 p{
+  padding-top: 19px;
+  padding-left: 77px;
+}
+.box2 p{
+  padding-top: 19px;
+  padding-left: 77px;
+}
+.box3 p{
+  padding-top: 19px;
+  padding-left: 77px;
+}
+.box4 p{
+  padding-top: 19px;
+  padding-left: 77px;
+}
+.btn{
+  position: relative;
+  height: 76px;
+}
+.btn h3{
+       position: absolute;
+       left: 630px;
+       top: 35px;
+}
+.btn h3 a{
+  padding: 15px 25px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 5px;
+}
+/* banner_part2 */
+.banner2{
+  height: 556px;
+  background-image: url("./img/background3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: rgb(134, 27, 221);
+  position: relative;
+  margin-top: 85px;
+}
+.banner2 h1{
+  position: absolute;
+  top: 25%;
+  left: 430px;
+  font-size: 60px;     
+}
+.banner2 h2 a{
+  position: absolute;
+  top: 55%;
+  left: 647px;
+  background-color: white;
+  padding: 15px 15px;
+  text-decoration: none;
+  color: rgb(26, 143, 238);
+  border-radius: 5px;
+}
+.banner2 h2 a:hover{
+color: rgb(133, 68, 22);
+}
+.banner2 p{
+  position: absolute;
+  top: 45%;
+  left: 580px;
+  font-weight: bold; 
+}
+.follow{
+  text-align: center;
+  margin-top: 85px;
+  color: rgb(60, 6, 110);
+}
+.gallery{
+  height: 356px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.image_box{
+  width: 260px;
+  height: 270px;
+  padding:15px;
+}
+.gallery .image_box img{
+  width: 100%;
+  height: 100%;
+}
+.image2 h3 a{
+  position: absolute;
+  left: 615px;
+  top: 295px;
+}
+.footer{
+  background-color: rgb(224, 215, 215);
+  height: 140px;
+  position: relative;
+}
+.footer h3{
+  display: inline-block;
+  position: absolute;
+  left: 304px;
+  top: 65%;
+}
+.footer p{
+  display: inline-block;
+  position: absolute;
+  left: 713px;
+  top: 65%;
+}
+.footer p a{
+  padding: 15px;
+}
